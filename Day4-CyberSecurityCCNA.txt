@@ -353,7 +353,7 @@ CONfig t
  Int Gi 3
   NO ip access-group NGFW1 in
 end
-
+extended- can block port and ip address
 ex.1a: you are the Blue Team/SOC guys for pogo sites:
 ebet10.com phoneBettingSite: 1720,2000,5060,5061
 ebet11.com webappBettingSite: 80,443,22,ping
@@ -607,7 +607,7 @@ Total number of translations: 7
 
 CREATING A WEB PROXY OR HIDING BEHIND NAT:
 www.sti.edu.ph:      vs     www.dlsu.edu.ph:
-@EDGE:
+@EDGE: 
 config t
 no access-list 8
 access-list 8 permit any
@@ -1084,6 +1084,7 @@ https:///restconf/data/Cisco-IOS-XE-native:native/interface/Loopback
 
 HomeWork for the Hardest Day in CCNA: 
 CSr, linuxdocker, pythondocker, Postman: RestApi.
+
 
 
 
